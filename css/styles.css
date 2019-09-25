@@ -297,6 +297,7 @@ h2 {
 
 /********** communication form *************/
 .communication-form {
+  display: none;
   box-shadow: 0px 10px 20px 0 rgba(4, 6, 6, 0.2);
 }
 
@@ -316,3 +317,6 @@ h2 {
   color: rgba(70, 70, 70, 0.4);
 }
 /*******************************************/
+.address-popup {
+  display: none;
+}
