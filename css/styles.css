@@ -1,10 +1,318 @@
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../typography/Gilroy-ExtraBold.woff") format("woff"),
+    url("../typography/Gilroy-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../typography/Gilroy-Light.woff") format("woff"), url("../typography/Gilroy-Light.ttf") format("truetype");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*** HEADER ***/
+.header {
+  background-color: #f0c52e;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3.6px;
+}
+/*******************************************/
+
+/*** SEARCH in header ***/
+.search {
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #f0c52e;
+  background: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+}
+
+.search:focus::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search:focus {
+  border-color: #000000;
+  color: #000000;
+}
+/*******************************************/
+
+/***************** FOOTER *****************/
+.footer {
+  background-color: #464646;
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.nav-footer a {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+}
+/*******************************************/
+
+/****************** MAIN ******************/
+h1 {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 47px;
+}
+
+h2 {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 31px;
+  letter-spacing: 0.47px;
+}
+/*******************************************/
+
+/************* LINKS IN HEADER *************/
+.link-header:visited {
+  color: #000000;
+}
+
+.link-header:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.link-header:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.link-header-active {
+  color: rgba(0, 0, 0, 0.3);
+}
+/*******************************************/
+
+/*** LINKS IN MAIN SECTION crossed style ***/
+.link-main {
+  text-transform: uppercase;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3.6px;
+  border: none;
+}
+
+.link-main:visited {
+  color: #000000;
+}
+
+.link-main:hover {
+  background: #f0c52e;
+}
+
+.link-main:active {
+  background: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+}
+/*******************************************/
+
+/************* LINKS IN FOOTER *************/
+.link-footer,
+.link-footer:visited {
+  color: #ffffff;
+}
+
+.link-footer:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link-footer:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.link-footer-active {
+  color: rgba(255, 255, 255, 0.3);
+}
+/*******************************************/
+
+/************* LIST style ******************/
+.list li::before {
+  content: "\25E6";
+  display: inline-block;
+  width: 25px;
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+  line-height: 30px;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+/*******************************************/
+
+/************* Catalog page ****************/
+.catalog-main {
+  font-size: 14px;
+}
+
+.catalog-main h2 {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+
+.catalog-main h3 {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 18px;
+}
+
+.catalog-item a:visited {
+  color: #000000;
+}
+
+.catalog-item-price {
+  font-family: "Gilroy-Light", sans-serif;
+}
+/*******************************************/
+
+/******* Catalog page - PAGINATIION ********/
+.pagination {
+  list-style: none;
+  background: #ebebeb;
+}
+
+.pagination a {
+  text-transform: uppercase;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pagination a:visited {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pagination .selected,
+.pagination .selected:visited {
+  color: #000000;
+}
+
+.pagination .end-point,
+.pagination .end-point:visited {
+  color: #000000;
+}
+
+.pagination .end-point:hover {
+  background-color: #d9d9d9;
+}
+
+.pagination .end-point:active {
+  background-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.3);
+}
+/*******************************************/
+
+/******* Catalog page - BREADCRUMBS ********/
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs a:not(.disabled):hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.breadcrumbs a:not(.disabled):active {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumbs .disabled {
+  cursor: default;
+}
+/*******************************************/
+
+/********** Catalog page - FILTER **********/
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 18px;
+}
+
+.filter ul {
+  list-style: none;
+}
+/*******************************************/
+
+/********** communication form *************/
+.communication-form {
+  box-shadow: 0px 10px 20px 0 rgba(4, 6, 6, 0.2);
+}
+
+.communication-form label {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 18px;
+}
+
+.communication-form input,
+.communication-form textarea {
+  background: #f2f2f2;
+  border: none;
+}
+
+.communication-form input::placeholder,
+.communication-form textarea::placeholder {
+  color: rgba(70, 70, 70, 0.4);
+}
+/*******************************************/
