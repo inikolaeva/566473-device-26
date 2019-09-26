@@ -6,7 +6,6 @@
   <title>HTML Academy: Девайс</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +14,10 @@
       <img src="img/logo-device.svg" alt="DEVICE" width="163" height="35">
     </a>
     <div>
-      <input type="text" class="search" placeholder="Поиск по сайту">
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <input type="text" class="search" name="saerch-param" placeholder="Поиск по сайту" autocomplete="off">
+        <button class="search-button" type="submit">Найти</button>
+      </form>
       <ul>
         <li>
           <a href="" class="link-header">Войти</a>
@@ -32,7 +34,7 @@
     <nav>
       <ul>
         <li>
-          <a href="" class="link-header nav-item">Каталог товаров</a>
+          <a href="catalog.html" class="link-header nav-item">Каталог товаров</a>
         </li>
         <li>
           <a href="" class="link-header nav-item">Доставка</a>
@@ -47,7 +49,7 @@
     </nav>
   </header>
 
-  <main>
+  <main class="main">
     <h1 class="visually-hidden">
       магазин гаджетов "Девайс"
     </h1>
@@ -95,9 +97,9 @@
       </ul>
     </div>
 
-    <div class="nav-footer">
+    <div>
       <p>г. Москва, ул. Строителей, 15 </p>
-      <ul>
+      <ul class="nav-footer">
         <li>
           <a href="" class="link-footer">Доставка</a>
         </li>
@@ -108,22 +110,23 @@
           <a href="" class="link-footer">Контакты</a>
         </li>
       </ul>
-      <p>Тел.: +7 (495) 495-95-95</p>
+      <a href="tel:+74954959595" class="link-footer">Тел.: +7 (495) 495-95-95</a>
     </div>
 
     <div>
-      <ul>
+      <ul class="social-footer">
         <li>
-          <a href="#" aria-label="Фейсбук" class="link-footer">Фейсбук</a>
+          <a href="#" aria-label="Фейсбук" class="link-social"><span class="visually-hidden">Фейсбук</span></a>
         </li>
         <li>
-          <a href="#" aria-label="Инстаграм" class="link-footer">Инстаграм</a>
+          <a href="#" aria-label="Инстаграм" class="link-social"><span class="visually-hidden">Инстаграм</span></a>
         </li>
         <li>
-          <a href="#" aria-label="Твиттер" class="link-footer">Твиттер</a>
+          <a href="#" aria-label="Твиттер" class="link-social"><span class="visually-hidden">Твиттер</span></a>
         </li>
       </ul>
-      <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="лого HTML Academy" class="link-footer">лого HTML Academy</a>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="лого HTML Academy" class="link-footer">лого HTML
+        Academy</a>
     </div>
   </footer>
 
