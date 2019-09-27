@@ -13,7 +13,8 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;
-  src: local("Gilroy-ExtraBold"), url("../fonts/gilroyextrabold.woff2") format("woff2"),
+  src: local("Gilroy-ExtraBold"),
+    url("../fonts/gilroyextrabold.woff2") format("woff2"),
     url("../typography/Gilroy-ExtraBold.woff") format("woff");
 }
 
@@ -21,7 +22,8 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
-  src: local("Gilroy-Light"), url("../fonts/gilroylight.woff2") format("woff2"),
+  src: local("Gilroy-Light"),
+    url("../fonts/gilroylight.woff2") format("woff2"),
     url("../fonts/gilroylight.woff") format("woff");
 }
 
@@ -29,7 +31,9 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
-  src: local("OpenSans-Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
+  src: local("OpenSans-Light"),
+    url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
 }
 
 html {
