@@ -1,3 +1,8 @@
+/* REMOVE following class when sliders will be implemented. It is temporary to hide*/
+.hidden-while-no-styles {
+    display: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
