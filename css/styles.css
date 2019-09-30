@@ -153,8 +153,7 @@ img {
   font-size: 47px;
 }
 
-.main h2,
-.catalog-main h2 {
+.h2-style {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 31px;
   font-weight: bold;
