@@ -80,7 +80,7 @@ img {
   text-transform: uppercase;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
   letter-spacing: 3.6px;
 }
 /*******************************************/
@@ -140,7 +140,7 @@ img {
 .nav-footer a {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 3.6px;
 }
@@ -149,16 +149,17 @@ img {
 /****************** MAIN ******************/
 .page-title {
   font-family: "Gilroy", Arial, sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 47px;
 }
 
-.h2-style {
+.section-title {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 31px;
-  font-weight: bold;
+  font-weight: 800;
   letter-spacing: 0.47px;
 }
+
 /*******************************************/
 
 /************* LINKS IN HEADER *************/
@@ -184,7 +185,7 @@ img {
   text-transform: uppercase;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
   letter-spacing: 3.6px;
   border: none;
 }
@@ -227,7 +228,7 @@ img {
   content: "\25E6";
   display: inline-block;
   width: 25px;
-  font-weight: bold;
+  font-weight: 800;
   color: #e5e5e5;
 }
 
@@ -235,7 +236,7 @@ img {
   list-style: none;
   line-height: 30px;
   font-family: "Gilroy", Arial, sans-serif;
-  font-weight: bold;
+  font-weight: 800;
 }
 /*******************************************/
 
@@ -244,18 +245,18 @@ img {
   font-size: 14px;
 }
 
-.catalog-main h2 {
+.catalog-section-title {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 3.2px;
 }
 
-.catalog-main h3 {
+.catalog-card-title {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .catalog-item a:visited {
@@ -277,7 +278,7 @@ img {
   text-transform: uppercase;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
   letter-spacing: 3.2px;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -336,7 +337,7 @@ img {
 .filter legend {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .filter ul {
@@ -353,7 +354,7 @@ img {
 .communication-form label {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .communication-form input,
