@@ -15,20 +15,33 @@
     </a>
     <div class="user-menu">
       <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-        <label class="search-label" for="input-search">Поиск по сайту</label>
-        <input type="search" class="search" name="search-param" id="input-search" autocomplete="off">
+        <input type="search" class="search" name="search-param" id="input-search" placeholder="Поиск по сайту"
+          autocomplete="off">
         <button class="search-button" type="submit">Найти</button>
       </form>
       <ul class="reset-list header-login-panel">
         <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+            <path fill="#272525"
+              d="M.032 12h12.937c-.163-2.643-2.074-4.837-4.671-5.543a3.47 3.47 0 0 0 1.687-2.972 3.485 3.485 0 0 0-6.97 0c0 1.264.68 2.361 1.688 2.972C2.106 7.163.194 9.357.032 12z" />
+          </svg>
           <a href="" class="link-header enter">Войти</a>
         </li>
       </ul>
       <div class="user-menu-items">
         <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+            <path d="M8 2h1.984v8H8zM0 3h1.984v7H0zM4 0h2v10H4z" />
+          </svg>
           <a href="" class="link-header compare">Сравнить</a>
         </p>
         <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+            <path
+              d="M11.864 3.017a.429.429 0 0 0-.327-.154H9.225V4.09c0 .563-.484 1.022-1.08 1.022-.594 0-1.078-.458-1.078-1.022V2.863H4.909V4.09c0 .563-.485 1.022-1.08 1.022-.595 0-1.078-.458-1.078-1.022V2.863H.438a.43.43 0 0 0-.327.154.472.472 0 0 0-.108.358l.776 7.134c.015.806.642 1.455 1.411 1.455h7.595c.77 0 1.396-.649 1.411-1.455l.776-7.134a.476.476 0 0 0-.108-.358z" />
+            <path
+              d="M3.829 4.499c.239 0 .433-.184.433-.409V1.84c0-.632.672-1.022 1.295-1.022h1.079c.655 0 1.078.401 1.078 1.022v2.25c0 .225.194.409.431.409.239 0 .433-.184.433-.409V1.84C8.577.773 7.761 0 6.636 0H5.557c-1.19 0-2.159.826-2.159 1.84v2.25c0 .225.194.409.431.409z" />
+          </svg>
           <a href="" class="link-header cart">Корзина</a>
         </p>
       </div>
@@ -38,27 +51,32 @@
       <ul class="reset-list navigation">
         <li class="nav-item-catalog ">
           <a href="catalog.html" class="link-header nav-item nav-catalog-link">Каталог товаров</a>
-          <ul class="reset-list nav-sub-menu">
-            <li>
-              <a href="" class="link-header">Виртуальная реальность</a>
-            </li>
-            <li>
-              <a href="catalog.html" class="link-header">Моноподы для селфи</a>
-            </li>
-            <li>
-              <a href="" class="link-header">Экшн-камеры</a>
-            </li>
-            <li>
-              <a href="" class="link-header">Фитнес-браслеты</a>
-            </li>
-            <li>
-              <a href="" class="link-header">Умные часы</a>
-            </li>
-            <li>
-              <a href="" class="link-header">Квадрокоптеры</a>
-            </li>
-          </ul>
-        </li>
+          <div class="catalog-menu">
+            <ul class="reset-list catalog-menu-column">
+              <li>
+                <a href="" class="link-header">Виртуальная реальность</a>
+              </li>
+              <li>
+                <a href="catalog.html" class="link-header">Моноподы для селфи</a>
+              </li>
+              <li>
+                <a href="" class="link-header">Экшн-камеры</a>
+              </li>
+            </ul>
+            <ul class="reset-list catalog-menu-column">
+              <li>
+                <a href="" class="link-header">Фитнес-браслеты</a>
+              </li>
+              <li>
+                <a href="" class="link-header">Умные часы</a>
+              </li>
+            </ul>
+            <ul class="reset-list catalog-menu-column">
+              <li>
+                <a href="" class="link-header">Квадрокоптеры</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
           <a href="" class="link-header">Доставка</a>
@@ -70,6 +88,7 @@
           <a href="" class="link-header">Контакты</a>
         </li>
       </ul>
+      </div>
     </nav>
   </header>
 
@@ -88,7 +107,7 @@
             <p class="promo-slider-description">Самая длинная палка для селфи доступна в нашем магазине.<br>
               Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
             <a href="" class="link-main">Подробнее</a>
-            <table class='promo-table'>
+            <table class="promo-table">
               <tr class="promo-top-row">
                 <td class="promo-cell">8,5 м</td>
                 <td class="promo-cell">5 кг</td>
@@ -160,7 +179,7 @@
           <a class="group-link watch" href="">Умные часы</a>
         </li>
         <li class="group-item">
-          <a class="group-link kvadrokopter" href="">Квадрокоптеры</a>
+          <a class="group-link quadrocopter" href="">Квадрокоптеры</a>
         </li>
       </ul>
     </section>
@@ -224,11 +243,12 @@
         <h2 class="section-title">О нас</h2>
         <p class="paragraph-text">Огромный выбор гаджетов не оставит равнодушным гика, <br> который есть в каждом из
           нас.</p>
-        <p class="paragraph-text descr-list-text-before">Мы можем доставить ваш товар в самые отдаленные точки <br>
+        <p class="paragraph-text description-list-text-before">Мы можем доставить ваш товар в самые отдаленные точки
+          <br>
           России! DEVICE работает со
           многими транспортными
           компаниями:</p>
-        <ul class="reset-list descr-list">
+        <ul class="reset-list description-list">
           <li>Деловые Линии</li>
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
@@ -258,12 +278,25 @@
         </a>
         <ul class="reset-list footer-links">
           <li>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#f0c52e" width="13" height="12" viewBox="0 0 13 12">
+              <path
+                d="M.032 12h12.937c-.163-2.643-2.074-4.837-4.671-5.543a3.47 3.47 0 0 0 1.687-2.972 3.485 3.485 0 0 0-6.97 0c0 1.264.68 2.361 1.688 2.972C2.106 7.163.194 9.357.032 12z" />
+            </svg>
             <a href="" class="link-footer enter">Войти</a>
           </li>
           <li>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#f0c52e" width="10" height="10" viewBox="0 0 10 10">
+              <path d="M8 2h1.984v8H8zM0 3h1.984v7H0zM4 0h2v10H4z" />
+            </svg>
             <a href="" class="link-footer compare">Сравнить</a>
           </li>
           <li>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#f0c52e" width="12" height="12" viewBox="0 0 12 12">
+              <path
+                d="M11.864 3.017a.429.429 0 0 0-.327-.154H9.225V4.09c0 .563-.484 1.022-1.08 1.022-.594 0-1.078-.458-1.078-1.022V2.863H4.909V4.09c0 .563-.485 1.022-1.08 1.022-.595 0-1.078-.458-1.078-1.022V2.863H.438a.43.43 0 0 0-.327.154.472.472 0 0 0-.108.358l.776 7.134c.015.806.642 1.455 1.411 1.455h7.595c.77 0 1.396-.649 1.411-1.455l.776-7.134a.476.476 0 0 0-.108-.358z" />
+              <path
+                d="M3.829 4.499c.239 0 .433-.184.433-.409V1.84c0-.632.672-1.022 1.295-1.022h1.079c.655 0 1.078.401 1.078 1.022v2.25c0 .225.194.409.431.409.239 0 .433-.184.433-.409V1.84C8.577.773 7.761 0 6.636 0H5.557c-1.19 0-2.159.826-2.159 1.84v2.25c0 .225.194.409.431.409z" />
+            </svg>
             <a href="" class="link-footer cart">Корзина</a>
           </li>
         </ul>
@@ -291,7 +324,7 @@
             <a class="social-link facebook" href="#" aria-label="Фейсбук"></a>
           </li>
           <li class="social-item">
-            <a class="social-link instagramm" href="#" aria-label="Инстаграм"></a>
+            <a class="social-link instagram" href="#" aria-label="Инстаграм"></a>
           </li>
           <li class="social-item">
             <a class="social-link twitter" href="#" aria-label="Твиттер"></a>
