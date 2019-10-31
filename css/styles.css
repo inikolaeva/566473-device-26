@@ -1191,7 +1191,7 @@ img {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  width: 285px;
+  min-width: 285px;
   min-height: 150px;
   padding-top: 80px;
   padding-bottom: 46px;
@@ -1278,16 +1278,16 @@ img {
 }
 
 .benefit-item:nth-child(2)::before {
-  top: -7px;
-  right: -0px;
+  top: 30px;
+  right: 40px;
   width: 171px;
   height: 194px;
   background-image: url("../img/benefits/warranty.svg");
 }
 
 .benefit-item:nth-child(3)::before {
-  top: -7px;
-  right: -0px;
+  top: 25px;
+  right: 70px;
   width: 156px;
   height: 186px;
   background-image: url("../img/benefits/credit.svg");
