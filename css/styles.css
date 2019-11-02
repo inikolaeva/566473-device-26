@@ -1277,6 +1277,7 @@ img {
 
 .benefit-item.selected {
   display: inline-block;
+  vertical-align: top;
 }
 
 .benefit-item::before {
@@ -1675,6 +1676,7 @@ img {
 .communication-modal label {
   display: inline-block;
   margin-bottom: 5px;
+  vertical-align: top;
   font-family: "Gilroy", Arial, sans-serif;
   font-weight: 800;
   font-size: 18px;
