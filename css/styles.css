@@ -63,6 +63,7 @@ img {
 }
 
 .container {
+  position: relative;
   width: 1160px;
   margin: 0 auto;
 }
@@ -287,8 +288,8 @@ img {
 .footer .container::before {
   content: "";
   position: absolute;
-  left: 140px;
-  bottom: 102px;
+  left: 0;
+  bottom: 11px;
   width: 80px;
   height: 7px;
   background-color: #f0c52e;
