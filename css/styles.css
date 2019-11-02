@@ -327,6 +327,10 @@ img {
 }
 
 .footer-links li:first-child {
+  margin-right: 41px;
+}
+
+.inner-page .footer-links li:first-child {
   margin-right: 20px;
 }
 
@@ -521,6 +525,10 @@ img {
   font-weight: 800;
   line-height: 24px;
   letter-spacing: 0.18px;
+}
+
+.catalog-item:nth-child(2n) .catalog-card-title{
+  width: 230px;
 }
 
 .catalog-card-list {
@@ -1279,7 +1287,7 @@ img {
 
 .benefit-item:nth-child(1)::before {
   top: 51px;
-  right: 30px;
+  right: 65px;
   width: 136px;
   height: 164px;
   background-image: url("../img/benefits/delivery.svg");
@@ -1379,10 +1387,15 @@ img {
 }
 
 .paragraph-text {
-  padding-top: 3px;
+  width: 470px;
   line-height: 30px;
   color: #464646;
-  letter-spacing: 0.14px;
+  letter-spacing: 0.1px;
+}
+
+.contacts .paragraph-text {
+  width: 510px;
+  letter-spacing: 0.05px;
 }
 
 .description-list-text-before {
