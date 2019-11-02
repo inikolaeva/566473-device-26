@@ -15,7 +15,7 @@
   font-weight: 800;
   src: local("Gilroy-ExtraBold"),
     url("../fonts/gilroyextrabold.woff2") format("woff2"),
-    url("../typography/Gilroy-ExtraBold.woff") format("woff");
+    url("../fonts/gilroyextrabold.woff") format("woff");
 }
 
 @font-face {
@@ -50,6 +50,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
   font-size: 15px;
   color: #000000;
 }
